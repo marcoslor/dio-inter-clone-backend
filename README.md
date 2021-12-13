@@ -1,36 +1,31 @@
-- Requisitos e ambiente 
-
-- Visual Studio Code
-  Extensões:
+## Ambiente e ferramentas:
+- Node, NPM
+- VSCode
 - Insomnia ou Postman
+## Dependencias nescessárias
 
+- Express
+- typescript -D
+- ts-node -D 
+- @types/express -D
+- @types/node -D
+- nodemon -D
 
----
-Dependencias nescessárias
-
-Express
-typescript -D
-ts-node -D 
-@types/express -D
-@types/node -D
-nodemon -D
-
-
-Criando setup Ininical - Referencias.
+## Criando setup Inicial
+Referencias.
 https://dev.to/melquisedecfelipe/configurando-eslint-no-node-com-express-e-typescript-58p9
 
 
+## Recursos nescessários na api
 
-- Recursos nescessários na api
 
-
-- Usuário
- [ ] Cadastrar novo usuário
- [ ] Efeturar login e retornar token de acesso
+- Usuário:
+- [ ] Cadastrar novo usuário
+- [ ] Efeturar login e retornar token de acesso
 
 - PIX
- [ ] Efetuar solicitação de PIX
- [ ] Receber PIX
+- [ ] Efetuar solicitação de PIX
+- [ ] Receber PIX
  
- Regras: 
-  - quando receber um pix, salvar na tabela de transação
+### Regras: 
+- [ ] quando receber um pix, salvar na tabela de transação
